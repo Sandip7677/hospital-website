@@ -128,10 +128,34 @@ h3{
   font-size:2rem;
   text-align:center;
 }
-p,ul,ol{
+ul,ol{
+  font-size: 1.6rem;
+}
+p{
   font-size: 1.6rem;
 }
 
+ .para1{
+  margin: 5px;
+  width: 60%;
+  position: relative;
+  top: 30px;
+  left: 15px;
+}
+
+ .para2{
+  margin: 5px;
+  width: 60%;
+  position: relative;
+  top: 30px;
+  right: 15px;
+  float: right;
+}
+
+
+.para1 p,.para2 p{
+  text-align: justify;
+}
 section h2 + p:first-of-type:first-letter{
   margin-left: 20px;
 }
@@ -229,6 +253,7 @@ nav ul li a{
   left: 15px;
   border: 2px solid #a66;
   border-radius: 2px;
+  margin: 5px;
 }
 .mg{
   height: 300px;
